@@ -1,0 +1,30 @@
+<script>
+    /*
+    Peça ao usuário para digitar uma frase que tenha pelo menos 3 palavras e no mínimo 25 letras.
+
+    O programa deve mostrar:
+        Cada palavra da frase separadamente.
+        A quantidade de letras de cada palavra.
+        O total de letras de toda a frase (desconsiderando espaços).
+
+    O programa também deve calcular e mostrar o número de combinações possíveis para formar novas palavras com as letras de cada palavra da frase.
+
+    Dica: O número de combinações possíveis de letras pode ser calculado com o fatorial do número de letras de cada palavra.    */
+
+
+
+    const pergunta = prompt("informe uma frase com 3 palavras e 25 frases no minimo");
+
+    const soletrado = Array.from(pergunta);
+    const quanditdade = soletrado.length
+    const semvirgula = soletrado.join("")
+
+    const transformaremlista = [semvirgula]
+    const quanditdadepalavras = transformaremlista.length
+
+    document.write(semvirgula)
+    document.write(quanditdadepalavras)
+
+    //sor não terminei mas eu acho q eu tava no caminho
+
+</script>
