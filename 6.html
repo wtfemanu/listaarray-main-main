@@ -1,0 +1,27 @@
+<script>
+    //Problema: Loja de veículos
+    //Crie os seguintes arrays:
+    // let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+    // let cassosSedan = ["Civic", "Corolla", "Arizzo", "Fusion"];
+    // let carrosHatch = ["308", "Focus", "i30"];
+    
+    //Peça para o usuário informar mais três veículos para serem inseridos na lista. Para inserir na lista correta, peça também para o usuário identificar o tipo de veículo que deseja inserir, se é SUV, Sedan ou Hatch.
+
+    //Apresente a lista final de cada tipo de veículo.
+  
+    let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
+    let carrosSedan = ["Civic", "Corolla", "Arizzo", "Fusion"];
+    let carrosHatch = ["308", "Focus", "i30"]
+
+    //ENTRADA
+    const SUVnovo = prompt("informe um novo carro SUV para ser adicionado a lista");
+    const SedanNovo= prompt("informe um novo carro Sedan para ser adiconado a lista");
+    const hatchNovo = prompt("informe um novo caro Hatch para ser adicionar a lista");
+    
+
+    //PROCESSAMENTO
+
+    //SAÍDA
+    document.write(`${carrosSUV.concat(SUVnovo)} </br> ${carrosSedan.concat(SedanNovo)} </br> ${carrosHatch.concat(hatchNovo)}`);
+
+</script>
